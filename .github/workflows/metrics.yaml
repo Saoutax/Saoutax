@@ -16,3 +16,5 @@ jobs:
           token: ${{ secrets.METRICS }}
           plugin_languages: yes
           plugin_languages_details: percentage
+          repositories_skipped: |
+            Saoutax/Elainawiki
